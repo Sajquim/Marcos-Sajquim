@@ -126,7 +126,7 @@ const INVITACIONES = {
   },
   ARuV: {
     familia: "Rudy Velásquez y Sra.",
-    invitados: "Sr. Rudy Velásquez, Esposa",
+    invitados: "Sr. Rudy Velásquez, y Sra.",
   },
   ARoV: {
     familia: "Robin Velásquez",
