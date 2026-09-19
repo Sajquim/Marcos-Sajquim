@@ -109,6 +109,11 @@ const INVITACIONES = {
     familia: "Boris Rodas",
     invitados: "Boris Jonatan Estuardo Rodas Castillo",
   },
+  JJ: {
+    familia: "Familia Pérez Álvarez",
+    invitados:
+      "Dr. José Juan Pérez Álvarez, Dra.Ana Iris Ramirez Benitez,  e, Hijos",
+  },
 };
 
 const reduceMotion = window.matchMedia(
