@@ -53,7 +53,7 @@ const INVITACIONES = {
   P: {
     familia: "Primas",
     invitados:
-      "Lic. Carola Nimatuj, Lic. Patricia Quemé, Sra. Claudia Quemé, Lic. Gaby Gonzales, Brenda López",
+      "Lic. Carola Nimatuj, Lic. Patricia Quemé, Sra. Claudia Quemé, Lic. Gaby Gonzales, Sra. Brenda López",
   },
   DrVictorSajquim: {
     familia: "Familia Sajquim Sajquim",
