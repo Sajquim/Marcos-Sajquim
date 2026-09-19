@@ -58,7 +58,7 @@ const INVITACIONES = {
   DrVictorSajquim: {
     familia: "Familia Sajquim Sajquim",
     invitados:
-      "M.Sc. Victor Manuel Sajquim, Lic. Lucrecia Ivonne Gonzales, José Andrés Gonzales",
+      "MSc. Victor Manuel Sajquim, Lic. Lucrecia Ivonne Gonzales, José Andrés Gonzales",
   },
   PaL: {
     familia: "Lisseth Gómez y Familia",
