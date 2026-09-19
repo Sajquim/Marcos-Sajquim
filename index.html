@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marcos Andrés Sajquin Sajquim</title>
+  <meta name="description" content="Te invitamos a celebrar la graduación de Marcos Andrés Sajquin Sajquim." />
+  <meta property="og:title" content="Invitación de Graduación — Marcos Andrés Sajquin Sajquim" />
+  <meta property="og:description" content="Acompáñanos a celebrar este logro tan especial." />
+  <meta property="og:type" content="website" />
+
+  <!-- Tipografías de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Parisienne&display=swap"
+    rel="stylesheet" />
+
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- ===================== PANTALLA DEL SOBRE ===================== -->
+  <section id="envelopeScreen" class="envelope-screen">
+    <p class="text text--dark text--upper text--spaced text--bold fade-in-1">Tienes una invitación</p>
+    <h1 class="title text--gold text--giant fade-in-2">Celebración de Graduación</h1>
+
+    <button type="button" id="envelopeButton" class="envelope fade-in-3" aria-label="Abrir la invitación">
+      <div class="envelope-3d">
+        <!-- Tarjeta de Invitacion -->
+        <div class="envelope-card" id="envelopeCard">
+          <span class="text text--dark text--upper text--spaced--small">Graduación</span>
+          <span class="title text--gold text--bold text--large nombre_graduado"></span>
+        </div>
+
+        <!-- Cuerpo del sobre (pliegues laterales e inferior) -->
+        <div class="envelope-body">
+          <div class="envelope-fold envelope-fold--left"></div>
+          <div class="envelope-fold envelope-fold--right"></div>
+          <div class="envelope-fold envelope-fold--bottom"></div>
+          <div class="envelope-border"></div>
+        </div>
+
+        <!-- Solapa superior: doble cara -->
+        <div class="envelope-flap" id="envelopeFlap">
+          <div class="envelope-flap-face envelope-flap-face--front">
+            <div class="envelope-flap-border"></div>
+          </div>
+          <div class="envelope-flap-face envelope-flap-face--back"></div>
+        </div>
+
+        <!-- Sello de cera -->
+        <div class="wax-seal" id="waxSeal">
+          <span class="sello"></span>
+        </div>
+      </div>
+    </button>
+
+    <p class="text text--dark text--upper text--spaced text--bold" id="envelopeHint">Toca el sobre para abrir</p>
+  </section>
+
+  <!-- ===================== INVITACIÓN COMPLETA ===================== -->
+  <main id="invitation" class="invitation" hidden>
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-frame hero-frame--outer"></div>
+      <div class="hero-frame hero-frame--inner"></div>
+      <div class="hero-in hero-in-3 divider">
+        <span class="gold-icon icon--giant icon--margin" aria-hidden="true"
+          style="--icon: url(&quot;../assets/icons/usac.svg&quot;)"></span>
+      </div>
+      <h1 class="hero-in hero-in-6 title text--gold text--extra-large gold-effect universidad"></h1>
+    </header>
+
+    <section class="section section--ink">
+      <div class="hero-frame hero-frame--outer"></div>
+      <div class="hero-frame hero-frame--inner"></div>
+      <div class="section-inner">
+        <p class="fade-up text text--white">Con el corazón lleno de gratitud y alegría, la Familia Sajquim Sajquim tiene
+          el
+          agrado de invitarles a la celebración de graduación de</p>
+        <h1 class="fade-up title text--gold text--giant gold-effect nombre_graduado"></h1>
+        <p class="fade-up text text--white">Quien obtuvo el título de</p>
+        <h2 class="fade-up title text--gold text--extra-large gold-effect carrera"></h2>
+        <span class="fade-up gold-icon icon--big icon--centered" aria-hidden="true"
+          style="--icon: url(&quot;../assets/icons/medicine.svg&quot;)"></span>
+      </div>
+    </section>
+
+    <!-- Detalles -->
+    <section class="section section--ink">
+      <div class="hero-frame hero-frame--outer"></div>
+      <div class="hero-frame hero-frame--inner"></div>
+      <div class="section-inner">
+        <h2 class="fade-up title text--gold text--giant gold-effect">
+          Misa de Acción de Gracias
+        </h2>
+        <div class="details-grid">
+          <div class="fade-up detail-card">
+            <span class="detail-icon"><span class="gold-icon icon--tiny" aria-hidden="true"
+                style="--icon: url(&quot;../assets/icons/calendar.svg&quot;)"></span></span>
+            <span class="text--small text--grey text--spaced text--upper">Fecha</span>
+            <span class="text--medium text--bold text--white fecha"></span>
+          </div>
+          <div class="fade-up detail-card">
+            <span class="detail-icon"><span class="gold-icon icon--tiny" aria-hidden="true"
+                style="--icon: url(&quot;../assets/icons/church.svg&quot;)"></span></span>
+            <span class="text--small text--grey text--spaced text--upper">Iglesia</span>
+            <span class="text--medium text--bold text--white iglesia"></span>
+          </div>
+          <div class="fade-up detail-card">
+            <span class="detail-icon"><span class="gold-icon icon--tiny" aria-hidden="true"
+                style="--icon: url(&quot;../assets/icons/clock.svg&quot;)"></span></span>
+            <span class="text--small text--grey text--spaced text--upper">Hora</span>
+            <span class="text--medium text--bold text--white horamisa"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--ink">
+      <div class="hero-frame hero-frame--outer"></div>
+      <div class="hero-frame hero-frame--inner"></div>
+      <div class="section-inner">
+        <h2 class="fade-up title text--gold text--giant gold-effect">
+          Cena de Celebración
+        </h2>
+        <div class="details-grid">
+          <div class="fade-up detail-card">
+            <span class="detail-icon"><span class="gold-icon icon--tiny" aria-hidden="true"
+                style="--icon: url(&quot;../assets/icons/map-pin.svg&quot;)"></span></span>
+            <span class="text--small text--grey text--spaced text--upper">Lugar</span>
+            <span class="text--medium text--bold text--white lugar"></span>
+            <span class="text text--grey direccion"></span>
+          </div>
+          <div class="fade-up detail-card">
+            <span class="detail-icon"><span class="gold-icon icon--tiny" aria-hidden="true"
+                style="--icon: url(&quot;../assets/icons/wine.svg&quot;)"></span></span>
+            <span class="text--small text--grey text--spaced text--upper">Salón</span>
+            <span class="text--medium text--bold text--white salon"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Invitados -->
+    <section class="section section--ink">
+      <div class="hero-frame hero-frame--outer"></div>
+      <div class="hero-frame hero-frame--inner"></div>
+      <div class="section-inner section-inner--narrow">
+        <h2 class="fade-up title text--gold text--giant gold-effect">
+          Tu Pase
+        </h2>
+        <div class="fade-up divider">
+          <span class="divider-line divider--gold"></span>
+          <span class="gold-icon icon--divider" aria-hidden="true"
+            style="--icon: url(&quot;../assets/icons/graduation-cap.svg&quot;)"></span>
+          <span class="divider-line divider--gold"></span>
+        </div>
+        <p class="fade-up text text--white">
+          Con mucho cariño, hemos reservado este pase para
+          <strong id="numeroInvitados" class="text--gold text--medium text--bold">0</strong>
+          personas.
+        </p>
+        <div class="details-grid details-grid--single">
+          <div class="fade-up detail-card">
+            <span class="text--small text--grey text--spaced--small text--upper">Personas incluidas en esta
+              invitación</span>
+            <ul id="listaInvitados" class="lista lista--gold-line"></ul>
+          </div>
+        </div>
+        <p class="fade-up text text--white">
+          Por la capacidad limitada de la reservación, este pase es válido
+          únicamente para las personas aquí indicadas.
+        </p>
+      </div>
+    </section>
+    <section class="section section--ink">
+      <div class="hero-frame hero-frame--outer"></div>
+      <div class="hero-frame hero-frame--inner"></div>
+      <div class="section-inner section-inner--narrow" style="text-align: center">
+        <h2 class="fade-up title text--gold text--giant gold-effect">Mesa de Regalos</h2>
+
+        <div class="fade-up divider">
+          <span class="divider-line divider--gold"></span>
+          <span class="gold-icon icon--divider" aria-hidden="true"
+            style="--icon: url(&quot;../assets/icons/gift.svg&quot;)"></span>
+          <span class="divider-line divider--gold"></span>
+        </div>
+
+        <p class="fade-up text text--white">
+          Con respecto al obsequio, agradeceremos que sea en efectivo, el cual
+          será recibido con mucho cariño y contribuirá a sus próximos
+          proyectos.
+        </p>
+      </div>
+    </section>
+    <!-- RSVP -->
+    <section class="section section--ink">
+      <div class="hero-frame hero-frame--outer"></div>
+      <div class="hero-frame hero-frame--inner"></div>
+      <div class="section-inner section-inner--narrow" style="text-align: center">
+        <h2 class="fade-up title text--gold text--giant gold-effect">
+          Confirma tu Asistencia
+        </h2>
+        <div class="fade-up divider">
+          <span class="divider-line divider--gold"></span>
+          <span class="gold-icon icon--divider" aria-hidden="true"
+            style="--icon: url(&quot;../assets/icons/mail.svg&quot;)"></span>
+          <span class=" divider-line divider--gold"></span>
+        </div>
+        <p class="fade-up text text--white">
+          Por favor confirma antes del
+          <strong class="text--bold antesde"></strong>
+        </p>
+        <div class="fade-up rsvp-actions">
+          <a id="enlace-whatsapp" class="btn text text--dark text--tiny text--spaced text--upper btn--gold"
+            target="_blank" rel="noopener noreferrer"
+            href="https://wa.me/+50230446296?text=%C2%A1Hola!%20Confirmo%20mi%20asistencia%20a%20la%20cena%20de%20graduaci%C3%B3n%20de%20%5BMarcos%20Sajquim%20de%20parte%20de%20.">
+            <span class="dark-icon icon--tiny" aria-hidden="true"
+              style="--icon: url(&quot;../assets/icons/whatsapp.svg&quot;)"></span>
+            Confirmar
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a class="footer-meta" target="_blank" rel="noopener noreferrer" href="https://wa.me/+50230446296">Desarrollado y
+        Diseñado por Erick Sajquim.
+      </a>
+    </footer>
+  </main>
+
+  <!-- Control de audio oculto, mientras no se tenga un audio en el .js, se mantendra oculot -->
+  <button type="button" id="audioToggle" class="audio-toggle" hidden aria-label="Silenciar audio">
+    <img id="audioIconOn" src="assets/icons/volume-2.svg" alt="" aria-hidden="true" />
+    <img id="audioIconOff" src="assets/icons/volume-x.svg" alt="" aria-hidden="true" hidden />
+  </button>
+  <audio id="bgAudio" loop preload="auto"></audio>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
