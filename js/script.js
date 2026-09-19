@@ -11,7 +11,9 @@ const LUGAR = "Restaurante & Museo: Tertulianos";
 const FECHA = "Sábado, 26 de Septiembre de 2026";
 const ANTESDE = "Martes, 22 de Septiembre de 2026";
 const HORA = "18:30 hrs";
-const SALON = 'Pérgola\n"La Vid"';
+const SALON = 'Pérgola"La Vid"';
+const SALON_TYPE = "Pérgola";
+const SALON_NAME = '"La Vid"';
 const DIRECCION = "14 Avenida 5-26, Zona 3, Quetzaltenango";
 const IGLESIA = "Jesús de la Buena Esperanza";
 const HORA_MISA = "17:30 hrs";
@@ -162,6 +164,12 @@ document.querySelectorAll(".hora").forEach((elemento) => {
 
 document.querySelectorAll(".salon").forEach((elemento) => {
   elemento.textContent = SALON;
+});
+document.querySelectorAll(".salon_type").forEach((elemento) => {
+  elemento.textContent = SALON_TYPE;
+});
+document.querySelectorAll(".salon_name").forEach((elemento) => {
+  elemento.textContent = SALON_NAME;
 });
 
 document.querySelectorAll(".direccion").forEach((elemento) => {
