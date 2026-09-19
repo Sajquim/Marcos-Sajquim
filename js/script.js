@@ -115,7 +115,7 @@ const INVITACIONES = {
     familia: "Boris Rodas",
     invitados: "Boris Jonatan Estuardo Rodas Castillo",
   },
-  IM: {
+  IO: {
     familia: "Dra. Ixchel Osorio",
     invitados: "Dra. Ixchel Mariah Isabel Osorio Sucuquí",
   },
@@ -124,11 +124,11 @@ const INVITACIONES = {
     invitados:
       "Dr. José Juan Pérez, Dra. Ana Iris Vásquez Cifuentes,  e, Hijos",
   },
-  JJ: {
+  ARuV: {
     familia: "Rudy Velasquez",
     invitados: "Sr. Rudy Velasquez, Esposa",
   },
-  JJ: {
+  ARoV: {
     familia: "Robin Velasquez",
     invitados: "Sr. Robin Velasquez",
   },
