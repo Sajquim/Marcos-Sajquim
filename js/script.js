@@ -82,7 +82,7 @@ const INVITACIONES = {
     familia: "Rocio Sajquim",
     invitados: "Lic. Rocio Sajquim",
   },
-  PaN: {
+  PaNM: {
     familia: "Nidia Sajquim y Familia",
     invitados: "Sr. David Antonio Martínez, Sra. Nidia Sajquim, e Hijo",
   },
@@ -125,12 +125,12 @@ const INVITACIONES = {
       "Dr. José Juan Pérez, Dra. Ana Iris Vásquez Cifuentes,  e, Hijos",
   },
   ARuV: {
-    familia: "Rudy Velasquez",
-    invitados: "Sr. Rudy Velasquez, Esposa",
+    familia: "Rudy Velásquez y Sra.",
+    invitados: "Sr. Rudy Velásquez, Esposa",
   },
   ARoV: {
-    familia: "Robin Velasquez",
-    invitados: "Sr. Robin Velasquez",
+    familia: "Robin Velásquez",
+    invitados: "Sr. Robin Velásquez",
   },
 };
 
