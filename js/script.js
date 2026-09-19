@@ -35,7 +35,7 @@ const INVITACIONES = {
   TaS: {
     familia: "Familia de León Sajquim",
     invitados:
-      "Sr. Guillero De León, Sra. Soledad Sajquim de De León, Eddy Samuél De León Sajquim",
+      "Sr. Guillermo De León, Sra. Soledad Sajquim de De León, Eddy Samuél De León Sajquim",
   },
   ToL: {
     familia: "Familia Rojas Sajquim",
