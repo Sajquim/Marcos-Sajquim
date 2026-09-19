@@ -3,7 +3,7 @@
    ===================================================================== */
 
 // URL del audio que sonara de fondo si se llegara a colocar. Si no se quiere audio, dejar la cadena vacía.
-const AUDIO_URL = "assets/audio/background_mussic.mp3";
+const AUDIO_URL = "assets/audio/background_music.mp3";
 const NOMBRE_GRADUADO = "Marcos Andrés Sajquim Sajquim";
 const CARRERA = "Médico y Cirujano";
 const UNIVERSIDAD = "Universidad San Carlos de Guatemala";
