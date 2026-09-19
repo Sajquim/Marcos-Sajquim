@@ -78,7 +78,7 @@ const INVITACIONES = {
   },
   PaN: {
     familia: "Nidia Sajquim y Familia",
-    invitados: "################",
+    invitados: "Sra. Nidia Sajquim, Esposo, e Hijo",
   },
   PoM: {
     familia: "Mario José Sajquim y Familia",
