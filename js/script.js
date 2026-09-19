@@ -71,7 +71,7 @@ const INVITACIONES = {
   },
   PoA: {
     familia: "Alejandro De León y Familia",
-    invitados: "Sr. Alejandro De León, Dra. Mayra Tistoj",
+    invitados: "Sr. Alejandro De León, Dra. Mayra de De León",
   },
   PoE: {
     familia: "Estuardo Rojas y Familia",
