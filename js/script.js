@@ -11,7 +11,7 @@ const LUGAR = "Restaurante & Museo: Tertulianos";
 const FECHA = "Sábado, 26 de Septiembre de 2026";
 const ANTESDE = "Martes, 22 de Septiembre de 2026";
 const HORA = "18:30 hrs";
-const SALON = 'Pérgola"La Vid"';
+const SALON = 'Pérgola "La Vid"';
 const SALON_TYPE = "Pérgola";
 const SALON_NAME = '"La Vid"';
 const DIRECCION = "14 Avenida 5-26, Zona 3, Quetzaltenango";
@@ -43,11 +43,11 @@ const INVITACIONES = {
       "Sr. Luis Rojas, Srta. Ligia Rojas Sajquim, Ing. Carlos Rojas Sajquim, Ing. Ángel Rojas Sajquim",
   },
   ToE: {
-    familia: "Familia Sajquim Estacuy",
+    familia: "Ing. Edwin Sajquim y Sra.",
     invitados: "Ing. Edwin Sajquim, Sra. Evelyn",
   },
   ToM: {
-    familia: "Familia Sajquim Queme",
+    familia: "Ing. Mario Sajquim y Sra.",
     invitados: "Ing. Mario Sajquim, Sra. Elizabeth de Sajquim",
   },
   P: {
@@ -71,16 +71,20 @@ const INVITACIONES = {
   },
   PoA: {
     familia: "Alejandro De León y Familia",
-    invitados: "Sr. Alejandro De León, Dra. Mayra ###########",
+    invitados: "Sr. Alejandro De León, Dra. Mayra Tistoj",
   },
   PoE: {
     familia: "Estuardo Rojas y Familia",
     invitados:
       "Sr. Estuardo Rojas Sajquim, Sra. Glendy De Rojas, Jimena Rojas, Rafael Rojas",
   },
+  PaR: {
+    familia: "Rocio Sajquim",
+    invitados: "Lic. Rocio Sajquim",
+  },
   PaN: {
     familia: "Nidia Sajquim y Familia",
-    invitados: "Sra. Nidia Sajquim, Esposo, e Hijo",
+    invitados: "Sr. David Antonio Martínez, Sra. Nidia Sajquim, e Hijo",
   },
   PoM: {
     familia: "Mario José Sajquim y Familia",
@@ -111,10 +115,22 @@ const INVITACIONES = {
     familia: "Boris Rodas",
     invitados: "Boris Jonatan Estuardo Rodas Castillo",
   },
+  IM: {
+    familia: "Dra. Ixchel Osorio",
+    invitados: "Dra. Ixchel Mariah Isabel Osorio Sucuquí",
+  },
   JJ: {
-    familia: "Familia Pérez Álvarez",
+    familia: "Familia Pérez Vásquez",
     invitados:
-      "Dr. José Juan Pérez Álvarez, Dra. Ana Iris Ramírez Benitez,  e, Hijos",
+      "Dr. José Juan Pérez, Dra. Ana Iris Vásquez Cifuentes,  e, Hijos",
+  },
+  JJ: {
+    familia: "Rudy Velasquez",
+    invitados: "Sr. Rudy Velasquez, Esposa",
+  },
+  JJ: {
+    familia: "Robin Velasquez",
+    invitados: "Sr. Robin Velasquez",
   },
 };
 
@@ -194,7 +210,7 @@ document.querySelectorAll(".horamisa").forEach((elemento) => {
 
 if (AUDIO_URL) {
   bgAudio.src = AUDIO_URL;
-  bgAudio.volume = 0.1;
+  bgAudio.volume = 0.5;
   audioToggle.hidden = false;
   audioToggle.disabled = true; // se habilita cuando el audio puede reproducirse
 
@@ -310,7 +326,7 @@ if (datosFamilia) {
 const whatsappMessage =
   "https://wa.me/+50230446296?text=%C2%A1Hola%21%20" +
   INVITACIONES[apellido]["familia"] +
-  "%20confirma%20asistencia%20a%20la%20ceremonia%20de%20graduaci%C3%B3n%20de%20" +
+  "%20confirma%20asistencia%20a%20la%20cena%20de%20graduaci%C3%B3n%20de%20" +
   NOMBRE_GRADUADO +
   ".";
 
