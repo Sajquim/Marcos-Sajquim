@@ -194,6 +194,7 @@ document.querySelectorAll(".horamisa").forEach((elemento) => {
 
 if (AUDIO_URL) {
   bgAudio.src = AUDIO_URL;
+  bgAudio.volume = 0.1;
   audioToggle.hidden = false;
   audioToggle.disabled = true; // se habilita cuando el audio puede reproducirse
 
