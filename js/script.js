@@ -11,7 +11,7 @@ const LUGAR = "Restaurante & Museo: Tertulianos";
 const FECHA = "Sábado, 26 de Septiembre de 2026";
 const ANTESDE = "Martes, 22 de Septiembre de 2026";
 const HORA = "18:30 hrs";
-const SALON = 'Salón "Pérgola La Vid"';
+const SALON = 'Pérgola /n "La Vid"';
 const DIRECCION = "14 Avenida 5-26, Zona 3, Quetzaltenango";
 const IGLESIA = "Iglesia Jesús de la Buena Esperanza";
 const HORA_MISA = "17:30 hrs";
@@ -112,7 +112,7 @@ const INVITACIONES = {
   JJ: {
     familia: "Familia Pérez Álvarez",
     invitados:
-      "Dr. José Juan Pérez Álvarez, Dra.Ana Iris Ramirez Benitez,  e, Hijos",
+      "Dr. José Juan Pérez Álvarez, Dra. Ana Iris Ramírez Benitez,  e, Hijos",
   },
 };
 
