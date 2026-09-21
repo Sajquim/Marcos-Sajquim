@@ -9,7 +9,7 @@ const CARRERA = "Médico y Cirujano";
 const UNIVERSIDAD = "Universidad San Carlos de Guatemala";
 const LUGAR = "Restaurante & Museo: Tertulianos";
 const FECHA = "Sábado, 26 de Septiembre de 2026";
-const ANTESDE = "Martes, 22 de Septiembre de 2026";
+const ANTESDE = "Miércoles, 23 de Septiembre de 2026";
 const HORA = "18:30 hrs";
 const SALON = 'Pérgola "La Vid"';
 const SALON_TYPE = "Pérgola";
@@ -118,6 +118,14 @@ const INVITACIONES = {
   IO: {
     familia: "Dra. Ixchel Osorio",
     invitados: "Dra. Ixchel Mariah Isabel Osorio Sucuquí",
+  },
+  VJ: {
+    familia: "Jorge Sierra y Odilea",
+    invitados: "Sr. Jorge Sierra, Srta. Ody Sierra",
+  },
+  IT: {
+    familia: "Dra. Fransheska Tayún",
+    invitados: "Dra. Irma Fransheska Tayún Rojas",
   },
   JJ: {
     familia: "Familia Pérez Vásquez",
