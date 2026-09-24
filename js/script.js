@@ -9,7 +9,7 @@ const CARRERA = "Médico y Cirujano";
 const UNIVERSIDAD = "Universidad San Carlos de Guatemala";
 const LUGAR = "Restaurante & Museo: Tertulianos";
 const FECHA = "Sábado, 26 de Septiembre de 2026";
-const ANTESDE = "Miércoles, 23 de Septiembre de 2026";
+const ANTESDE = "Viernes, 25 de Septiembre de 2026";
 const HORA = "18:30 hrs";
 const SALON = 'Pérgola "La Vid"';
 const SALON_TYPE = "Pérgola";
@@ -139,6 +139,10 @@ const INVITACIONES = {
   ARoV: {
     familia: "Robin Velásquez",
     invitados: "Sr. Robin Velásquez",
+  },
+  CWG: {
+    familia: "Ingeniera Wendy Gonzalez",
+    invitados: "Ingeniera Wendy Gonzalez",
   },
 };
 
